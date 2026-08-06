@@ -1,137 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <title></title>
-  <style>
-    @media only screen and (max-width: 600px) {
-      table[class="container"] {
-        width: 100% !important;
-      }
-      td[class="content-padding"] {
-        padding: 25px 25px !important;
-      }
-      img[class="logo"] {
-        width: 140px !important;
-        height: auto !important;
-      }
-      a[class="cta-button"] {
-        padding: 12px 24px !important;
-        font-size: 14px !important;
-      }
-    }
-  </style>
-</head>
-<body style="margin:0; padding:0; background-color:#f4f7fc; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
-
-  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#f4f7fc; padding:35px 0;">
-    <tr>
-      <td align="center">
-
-        <table width="600" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; border-radius:16px; box-shadow:0 8px 20px rgba(0,0,0,0.02), 0 2px 6px rgba(0,0,0,0.05); border-collapse:separate; overflow:hidden;" class="container">
-
-          <!-- Header with original logo -->
-          <tr>
-            <td align="center" style="padding:32px 24px 16px 24px; background:#ffffff;">
-              <img
-                src="https://www.iamsterdam.com/_next/image?url=https%3A%2F%2Fapp.thefeedfactory.nl%2Fapi%2Fassets%2F63b2dea4cdc49f5de115f0bf%2FUntitled_design__39_.jpg&w=3840&q=75"
-                width="170"
-                style="display:block; border:0; outline:none; text-decoration:none;"
-                class="logo"
-              />
-            </td>
-          </tr>
-
-          <!-- Divider -->
-          <tr>
-            <td style="padding:0 32px;">
-              <hr style="border:none; border-top:1px solid #e9edf2; margin:0;" />
-            </td>
-          </tr>
-
-          <!-- Main Content - job opportunity style but spam-safe -->
-          <td style="padding:28px 36px 32px 36px; color:#1f2a3e; font-size:16px; line-height:1.65;" class="content-padding">
-
-            <p style="margin:0 0 24px 0; font-size:17px;">Hi ##firstname##,</p>
-
-            <p style="margin:0 0 24px 0;">
-              I hope you’re doing well.
-            </p>
-
-            <p style="margin:0 0 24px 0;">
-              I’m Tanya from the Spotlfy recruiting team. I recently came across your background in digital marketing and paid media, and I thought your experience was interesting.
-            </p>
-
-            <p style="margin:0 0 24px 0;">
-             We’re currently speaking with professionals who have worked across performance marketing, campaign strategy, and growth-focused initiatives, and I’d love to learn a bit more about your experience.
-             
-            </p>
-            <p style="margin:0 0 24px 0;">
-            If you’d be open to a brief introductory conversation, you can use the link below to schedule a time that works best for you.
-            </p>
-
-            <!-- CTA Button - original style -->
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr>
-                <td align="center" style="padding-bottom:28px;">
-                  <a href="https://apply03.portaljobcommunity.com"
-                     target="_blank"
-                     class="cta-button"
-                     style="
-                       background-color:#FFA500;
-                       color:#ffffff;
-                       text-decoration:none;
-                       padding:13px 32px;
-                       border-radius:40px;
-                       display:inline-block;
-                       font-size:15px;
-                       font-weight:600;
-                       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-                       letter-spacing:0.3px;
-                     ">
-                     Pick a Time to Connect
-                  </a>
-                </td>
-              </tr>
-            </table>
-
-            
-
-            <p style="margin:0 0 16px 0;">
-             Thanks for your time, and I appreciate you reading my message.
-            </p>
-
-            <p style="margin:0 0 8px 0;">All the best,</p>
-
-            <p style="margin:0; line-height:1.6;">
-              <strong>Tanya Born</strong><br />
-              Senior Recruiting Lead, Growth & Analytics<br />
-              <span style="color:#5f6c84;">Spotlfy Talent Experience</span>
-            </p>
-
-          </td
-          </tr>
-
-          <!-- spacer -->
-          <tr><td style="height:4px; background:#ffffff;"></td
-          </tr>
-
-          <!-- Footer - no emoji, clean -->
-          <tr>
-            <td align="center" style="padding:20px 28px 24px 28px; color:#7e8a98; font-size:12px; border-top:1px solid #eef2f7; background:#ffffff;">
-              <span style="font-size:12px;">Spotlfy · </span><br />
-              <span style="font-size:11px; opacity:0.8;">Exploring talent globally — remote-friendly projects</span>
-             </td
-          </tr>
-
-        </table>
-
-      </td>
-    </tr>
-  </table>
-
-  <p><a href="{{ .ConfirmationURL }}">Accept the invite</a></p>
-
-</body>
-</html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Invitation</title></head>
+<body style="margin:0;padding:0;background:#f4f6f9;font-family:Arial,Helvetica,sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" style="background:#f4f6f9;padding:40px 20px;"><tr><td align="center">
+<table width="600" cellpadding="0" cellspacing="0" style="background:#fff;border-radius:10px;">
+<tr><td style="padding:35px;text-align:center"><h1>Welcome!</h1></td></tr>
+<tr><td style="padding:0 40px 40px">
+<p>Hello,</p>
+<p>You've been invited to create your account. Click the button below to accept your invitation and set your password.</p>
+<p style="text-align:center"><a href="{{ .ConfirmationURL }}" style="background:#0d6efd;color:#fff;padding:14px 28px;text-decoration:none;border-radius:6px;display:inline-block;">Accept Invitation</a></p>
+<p>If the button doesn't work, use this link:</p>
+<p>{{ .ConfirmationURL }}</p>
+<p>If you didn't expect this email, you can safely ignore it.</p>
+<p>Best regards,<br>The Team</p>
+</td></tr></table></td></tr></table>
+</body></html>
